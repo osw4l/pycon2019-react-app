@@ -1,0 +1,183 @@
+.jumbotron {
+    margin-bottom: 4em;
+}
+
+.person-wrapper {
+    margin-bottom: 2em;
+}
+
+.profile-pic {
+    width: 50%;
+}
+
+.btn-primary {
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    background-color: #2892D7;
+}
+
+h3 {
+    margin-bottom: 1em;
+}
+
+@media (min-width: 576px) {
+    .well-start {
+        padding: 4rem 2rem;
+    }
+}
+
+.well-start {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+
+.start {
+    margin-top: 10% !important;
+}
+
+.pull-bottom-20p {
+    margin-top: 20px !important;
+    margin-left: 2% !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.margin-bottom-50p {
+    margin-bottom: 30px !important;
+}
+
+.text-dark {
+    color: black;
+}
+
+.card .card-image .card-title {
+    background: #1a1a1aad;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.shop-button {
+    margin-top: 2% !important;
+    margin-left: 7% !important;
+}
+
+
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-group-sm>.btn, .btn-sm {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+button.btn-2 {
+
+}
+
+.btn-2 {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 16px;
+    line-height: inherit;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: 0;
+    font-family: inherit;
+    text-transform: none;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    color: #212529;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.btn-xs {
+    margin-left: 5px !important;
+}
+
+.text-red {
+    color: #c50400 !important;
+    font-weight: 800 !important;
+}
+
+.text-green {
+    color: #86cb2e !important;
+    font-weight: 800 !important;
+}
+
+.pull-left {
+    margin-left: 2px !important;
+}
+

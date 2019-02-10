@@ -1,0 +1,91 @@
+nav.navbar, .navbar-default {
+    background-color: #2892D7 !important;
+}
+
+.navbar-default {
+    background-image: none;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.red.darken-2 {
+    background-color: #db0319 !important;
+}
+
+.logo {
+    margin-left: 25px !important;
+}
+
+.pull-little-right {
+    margin-right: 15px !important;
+}
+
+.expand-dropdown {
+    width: 220px !important;
+}
+
+.position-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.search-input {
+    position: absolute;
+    margin-left: -190% !important;
+    width: 180%;
+}
+
+.search-input input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid #f0eff4;
+    -webkit-box-shadow: 0 1px 0 0 #f0eff4;
+    box-shadow: 0 1px 0 0 #f0eff4;
+}
+
+.search-input input[type=text]:not(.browser-default):focus:not([readonly]) + label {
+    color: #f0eff4;
+}
+
+.text-search {
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+.custom-collection {
+    margin: -0.6rem 0 1rem 0;
+}
+
+.pull-little-left {
+    padding-left: 30px !important;
+}

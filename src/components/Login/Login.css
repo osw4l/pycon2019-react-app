@@ -1,0 +1,61 @@
+.back-login{
+
+    text-align: center;
+}
+
+.lc-block:not(.lcb-alt) {
+    padding: 35px 55px 35px;
+}
+
+.lc-block {
+    background: #fff;
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+    border-radius: 2px;
+    width: 500px;
+    display: inline-block;
+    margin-top: 45px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.btn:not(.btn-link) {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.btn-float:not(.m-btn) {
+    position: absolute !important;
+}
+
+.lc-block:not(.lcb-alt) .btn-login {
+    top: 50%;
+    margin-top: -25px;
+    right: -25px;
+}
+
+.btn-float {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 45px !important;
+}
+
+
+input[type=email]:not(.browser-default):focus:not([readonly]){
+    border-bottom: 1px solid #F44336;
+    -webkit-box-shadow: 0 1px 0 0 #F44336;
+    box-shadow: 0 1px 0 0 #F44336;
+}
+
+input[type=password]:not(.browser-default):focus:not([readonly]){
+    border-bottom: 1px solid #F44336;
+    -webkit-box-shadow: 0 1px 0 0 #F44336;
+    box-shadow: 0 1px 0 0 #F44336;
+}
+
+input[type=password]:not(.browser-default):focus:not([readonly])+label{
+    color: #F44336;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly])+label{
+    color: #F44336;
+}
